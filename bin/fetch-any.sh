@@ -18,3 +18,5 @@ wget -i url
 #To download a file and make it available for local viewing aka mirror it
  wget --mirror -p --convert-links -P ./LOCAL-DIR URL
  
+#Suppose you want to download everything except some type of ile from a url then do this
+wget --reject=gif WEBSITE-URL
