@@ -11,3 +11,6 @@ wget -r -A '*.txt' url
 
 #to download anythin with curl 
 curl url
+
+#download multiple files 
+wget -i url
