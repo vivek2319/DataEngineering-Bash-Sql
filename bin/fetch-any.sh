@@ -14,3 +14,7 @@ curl url
 
 #download multiple files 
 wget -i url
+
+#To download a file and make it available for local viewing aka mirror it
+ wget --mirror -p --convert-links -P ./LOCAL-DIR URL
+ 
