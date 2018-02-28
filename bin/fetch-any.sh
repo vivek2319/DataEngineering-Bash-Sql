@@ -9,4 +9,5 @@ wget -r -A '*.mp3' url
 #To download all .txt files from a webpage
 wget -r -A '*.txt' url
 
-
+#to download anythin with curl 
+curl url
