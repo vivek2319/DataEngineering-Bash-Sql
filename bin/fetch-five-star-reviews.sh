@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 
 echo "Gardens of the Moon Review form Verified Users (5 Star Ratings only)" >> review.txt
