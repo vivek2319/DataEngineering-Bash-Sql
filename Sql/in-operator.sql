@@ -14,3 +14,12 @@ SELECT first_name, email FROM patrons WHERE library_id = "MCL1001" OR library_id
 
 SELECT first_name, email FROM patrons WHERE library_id IN ("MCL1001", "MCL1100", "MCL1011");
 
+
+
+-- To find all rows that are not in the set of values you can use NOT IN.
+
+SELECT <columns> FROM <table> WHERE <column>  NOT IN (<value 1>, <value 2>, ...);
+
+SELECT answer FROM answers WHERE id IN (7, 42);
+SELECT * FROM products WHERE category NOT IN ("Electronics");
+SELECT title FROM courses WHERE topic NOT IN ("SQL", "NoSQL");
